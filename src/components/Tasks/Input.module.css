@@ -1,0 +1,47 @@
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+.input .newInput {
+    display: flex;
+    gap: .5rem;
+}
+
+.newInput input {
+    border-radius: 8px;
+    border: 0;
+    background: var(--gray-500);
+    height: 3.375rem;
+    width: 39.875rem;
+    color: var(--gray-100);
+    padding: 1rem;
+    text-align: left;
+}
+
+.newInput input:focus-within {
+    box-shadow: 0 0 0 2px var(--purple-dark);
+}
+
+.placeholder {
+    color: var(--gray-300);
+}
+
+.newInput button[type=submit] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    border: 0;
+    color: var(--gray-100);
+    width: 5.625rem;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+
+.newInput button[type=submit]:hover {
+    background-color: var(--blue);
+}
